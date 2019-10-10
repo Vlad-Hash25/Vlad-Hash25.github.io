@@ -6,4 +6,19 @@ body {
 p, hr, h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	color: white;
+	font-family: "Arial", sans-serif;
 }
+
+ul, ol, li {
+	text-align: center;
+	font-size: 14;
+	color: lightgrey;
+	list-style-position: inside;
+}
+
+table {
+	border: 1px darkblue;
+}
+
+#header1 {
+	font-family: ;
