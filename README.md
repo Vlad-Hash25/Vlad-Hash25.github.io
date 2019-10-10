@@ -1,4 +1,3 @@
 # Vlad-Hash25.github.io
-# This website was built to assist with my education of HTML, CSS, and Javascript.
-# Any and all images and resources used for this website are likely not of my own.
-# If some of your content is on here please let me know. It is within my power to remove such content.
+This webpage was built for the purpose of furthering my education in HTML, Javascript, and CSS(Collapsing shit sheets).
+This webpage is not meant for any dedicated purpose as of 10/10/2019. (D/M/Y). I am no professional, as this webpage blatantly demonstrates my inexperience.
