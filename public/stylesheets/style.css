@@ -1,0 +1,28 @@
+body {
+	background-image: url(images/cubes.png);
+	background-color: dimgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+
+header {
+	background-color: black;
+	size: 100%;
+	padding: 20px;
+	margin: 35px;
+	height: 75px;
+	text-align: center;
+	float: top;
+}
+
+nav {
+	background-color: grey;
+	size: 100%;
+	padding: 20px;
+	margin: 35px;
+	height: 75px;
+	text-align: center;
+	float: top;
+}
