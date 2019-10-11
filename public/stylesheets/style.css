@@ -17,7 +17,7 @@ header {
 	float: top;
 }
 
-nav {
+nav, nav ul {
 	background-color: grey;
 	size: 100%;
 	padding: 20px;
