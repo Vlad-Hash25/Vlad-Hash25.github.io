@@ -1,0 +1,59 @@
+body {
+	background-image: url(images/cubes.png);
+	background-color: dimgrey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+
+header {
+	background-color: black;
+	padding: 20px;
+	height: 75px;
+	text-align: center;
+	float: top;
+}
+
+nav {
+	float:top;
+	background-color: grey;
+	height: 45px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	overflow: hidden;
+	position: sticky;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+/* Classes */
+.active {
+	background-color: 13004d;
+	color: white;
+}
+
+.about {
+	float: right;
+}
+
+/* I am scarred for life after having made this and three other revisions of the same file. */
