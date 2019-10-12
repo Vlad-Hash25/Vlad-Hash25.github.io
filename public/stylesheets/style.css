@@ -9,20 +9,39 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	background-color: black;
-	size: 100%;
 	padding: 20px;
-	margin: 35px;
 	height: 75px;
 	text-align: center;
 	float: top;
 }
 
-nav, nav ul {
+nav {
+	float:top;
 	background-color: grey;
-	size: 100%;
-	padding: 20px;
-	margin: 35px;
-	height: 75px;
-	text-align: center;
-	float: top;
+	height: 45px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+	overflow: hidden;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
 }
