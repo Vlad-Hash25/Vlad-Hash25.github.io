@@ -21,27 +21,39 @@ nav {
 	height: 45px;
 }
 
-ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	background-color: grey;
 	overflow: hidden;
-}
-
-li {
-	display: inline;
-	float: left;
+	position: sticky;
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: left;
+  border-right: 1px solid white;
 }
 
 li a:hover {
-  background-color: red;
+  background-color: white;
+  color: black;
 }
+
+
+/* Classes */
+.active {
+	background-color: 13004d;
+	color: white;
+}
+
+.about {
+	float: right;
+}
+
+/* I am scarred for life after having made this and three other revisions of the same file. */
