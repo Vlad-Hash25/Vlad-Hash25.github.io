@@ -44,6 +44,15 @@ li a:hover {
   color: black;
 }
 
+article {
+	text-align: center;
+	float: center;
+	color: white;
+}
+
+img, article p a img {
+	float: bottom-behind;
+}
 
 /* Classes */
 .active {
