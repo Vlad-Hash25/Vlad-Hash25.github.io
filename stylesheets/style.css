@@ -44,13 +44,13 @@ li a:hover {
   color: black;
 }
 
-article, p, p small, article p, article p small, article small, article img, article a img, article p a img, article p img {
+article {
 	text-align: center;
 	float: center;
 	color: white;
 }
 
-img, article p a img {
+article img, article p a img {
 	float: center;
 }
 
