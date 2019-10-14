@@ -44,14 +44,14 @@ li a:hover {
   color: black;
 }
 
-article {
+article, p, p small, p {
 	text-align: center;
 	float: center;
 	color: white;
 }
 
 img, article p a img {
-	float: bottom-behind;
+	float: center;
 }
 
 /* Classes */
