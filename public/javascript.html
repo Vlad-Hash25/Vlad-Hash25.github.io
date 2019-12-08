@@ -4,21 +4,27 @@
 <!--Meta data-->
 <head>
     <meta charset='UTF-8'>
-    <title>I said JavaScript not Java-Script!</title>
-    <link rel='stylesheet' href='../stylesheets/style.css'>
+    <title>A test in JavaScript</title>
+    <link rel='stylesheet' href='./stylesheets/style.css'>
 </head>
 
 <!--Body-->
 <body>
 
+<!-- Header -->
 <header>
     <h1>A Test in JavaScript</h1>
 </header>
 
+<!-- Nav bar -->
 <nav>
 	<ul>
 		<li><a href="../index.html">Homepage</a></li>
-        <li><a href="../public/javascript.html" class="active">JavaScript</a></li>
-		<li class="about"><a href="public/about.html">About</a></li>
+        <li><a href="./javascript.html" class="active">JavaScript</a></li>
+		<li class="about"><a href="./about.html">About</a></li>
 	</ul>
 </nav>
+
+
+<!-- Scripts -->
+<button class="jsButton" onclick="document.getElementById('demo').innerHTML = alert('You found me!');"/> <!-- WHY YOU LOOKIN FOO? -->

@@ -64,4 +64,24 @@ article img, article p a img {
 	float: right;
 }
 
-/* I am scarred for life after having made this and three other revisions of the same file. */
+
+/** 
+ * Alright, how the hell do you make a button float to center?!
+ * And who the fuck made this language?! They aught to burn in hell for the pain they've caused!
+ */
+.jsButton {
+    overflow: auto;
+    white-space: nowrap;
+    float: center-left;
+    opacity: 1;
+    padding: 16px 32px;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    border-color: red;
+    border: 2px;
+}
+
+/* I am scarred for life after having made this and three other revisions of the same damn file. */
