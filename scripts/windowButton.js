@@ -1,1 +1,0 @@
-window.alert("Where the fuck did you come from?");
