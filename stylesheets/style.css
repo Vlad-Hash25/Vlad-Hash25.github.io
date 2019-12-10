@@ -18,10 +18,11 @@ header {
     float: top;
 }
 
-header h1, header h2, header h3, header h4, header h5, header h6 {
+header h1 {
     color: white;
     float: center;
     font-family: "Anonymous Pro";
+    font-size: 2em;
 }
 
 nav, nav ul {
@@ -33,7 +34,7 @@ nav, nav ul {
     padding: 0;
     background-color: grey;
     overflow: hidden;
-    position: sticky;
+    position: relative;
 }
 
 nav li a {
@@ -44,6 +45,7 @@ nav li a {
     text-decoration: none;
     float: left;
     font-family: "Anonymous Pro";
+    font-size: 1em;
 }
 
 li a:hover {
@@ -51,19 +53,30 @@ li a:hover {
     color: black;
 }
 
-article {
-    text-align: center;
-    float: center;
-    color: white;
-    font-family: "Anonymous Pro";
-}
-
 article img, article p a img {
     float: center;
 }
 
-article border {
-    border-color: #990000;
+div.absolute_right {
+    position: absolute;
+}
+
+div.absolute_left {
+    position: absolute;
+}
+
+div.relative {
+    position: relative;
+}
+
+article {
+    border-style: solid;
+    border-color: white;
+    height: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 .active {
@@ -75,4 +88,8 @@ article border {
     float: right;
 }
 
-/* This is the fourth revision of this CSS file. May god have mercy. */
+/** 
+ * This is the fourth revision of this CSS file. May god have mercy.
+ * Forgive my poor formatting of CSS. This is merely an (admittedly shitty) training exersize.
+ * I'm sure that CSS professionals are rolling in their graves at the existence of this file.
+ */
