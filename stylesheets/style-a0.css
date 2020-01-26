@@ -12,27 +12,27 @@
 body
 {
   background-image: url("./images/rocky-wall.png");
-  background-color: #878787;
+  background-color: #6e6e6e;
 }
 
-div, header
+header
 {
-
+  float: top;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border: 0px;
 }
 
-div, nav, nav ul, nav li a
+nav
 {
-
+  background-color: orange;
+  float: top;
 }
 
-div nav li a:hover
+.about
 {
-  background-color: white;
-  color: black;
-}
-
-/* This is going to be used in the navigation bar. */
-.active {
-    background-color: #13004d;
-    color: white;
+  background-color: orange;
+  color: brown;
 }
