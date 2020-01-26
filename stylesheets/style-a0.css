@@ -1,0 +1,38 @@
+/***
+ * Fifth revision of this damn file. Trying to learn positioning and margins and shit. Maybe I'll just do a redesign to make this easier.
+ * Why can't CSS have single line comments?!
+ * Github-pages, I love you. ALso, thanks to whoever the chap was that reviewed my css and said it looked halfway decent.
+ *
+ * So, let's see what I'm doing here. I'm trying to use dividers and position things. Perhaps I'll even try and make it fit on other devices. Perhaps.
+ * W3Schools, you're just as awesome as you are confusing. Thank god I'll not be doing this for a living.
+ *
+ * Also, I've been using textures from transparenttextures.com. Felt I should probably put that in there.
+ */
+
+body
+{
+  background-image: url("./images/rocky-wall.png");
+  background-color: #878787;
+}
+
+div, header
+{
+
+}
+
+div, nav, nav ul, nav li a
+{
+
+}
+
+div nav li a:hover
+{
+  background-color: white;
+  color: black;
+}
+
+/* This is going to be used in the navigation bar. */
+.active {
+    background-color: #13004d;
+    color: white;
+}
