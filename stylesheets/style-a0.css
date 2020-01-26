@@ -1,38 +1,59 @@
 /***
- * Fifth revision of this damn file. Trying to learn positioning and margins and shit. Maybe I'll just do a redesign to make this easier.
- * Why can't CSS have single line comments?!
- * Github-pages, I love you. ALso, thanks to whoever the chap was that reviewed my css and said it looked halfway decent.
+ * Fifth revision of this damn file. Attempting to do positioning. Due to the guidance and support of a few strangers and friends I've decided to get back to work on * this. Many thanks to them both.
  *
- * So, let's see what I'm doing here. I'm trying to use dividers and position things. Perhaps I'll even try and make it fit on other devices. Perhaps.
- * W3Schools, you're just as awesome as you are confusing. Thank god I'll not be doing this for a living.
- *
- * Also, I've been using textures from transparenttextures.com. Felt I should probably put that in there.
+ * I've been using images and textures from 'transparenttextures.com'. Use that shit.
  */
+
+@import url("https://fonts.googleapis.com/css?family=Anonymous Pro");
 
 body
 {
-  background-image: url("./images/rocky-wall.png");
-  background-color: #6e6e6e;
+    background-image: url("./images/rocky-wall.png");
+    background-color: #6e6e6e;
+	font-family: "Anonymous Pro";
 }
 
 header
 {
-  float: top;
-  background-color: black;
-  text-align: center;
-  color: white;
-  padding: 10px;
-  border: 0px;
+    float: top;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: auto;
+	margin: auto;
+	height: auto;
+	width: auto;
 }
 
 nav
 {
-  background-color: orange;
-  float: top;
+    background-color: #3b3b3b;
+    float: top;
+    margin: 0px;
+    padding: 10px;
+    height: auto;
+	width: auto;
+	margin: auto;
 }
 
-.about
+nav ul
 {
-  background-color: orange;
-  color: brown;
+    list-style-type: none;
+}
+
+nav ul li
+{
+    display: inline;
+}
+
+nav ul li a
+{
+    color: white;
+}
+
+.active
+{
+	background-color: white;
+	color: black;
 }
