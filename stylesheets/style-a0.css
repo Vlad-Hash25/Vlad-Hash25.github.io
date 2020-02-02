@@ -1,7 +1,7 @@
 /***
- * Fifth revision of this damn file. Attempting to do positioning. Due to the guidance and support of a few strangers and friends I've decided to get back to work on * this. Many thanks to them both.
- *
- * I've been using images and textures from 'transparenttextures.com'. Use that shit.
+ * Fifth revision of this damn file.
+ * I've been using images and textures from 'transparenttextures.com'.
+ * The font I've been using comes from google fonts. The font name is "Anonymous Pro".
  */
 
 @import url("https://fonts.googleapis.com/css?family=Anonymous Pro");
@@ -56,4 +56,23 @@ nav ul li a
 {
 	background-color: white;
 	color: black;
+}
+
+article
+{
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+article p
+{
+    color: white;
+    text-align: left;
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6
+{
+    color: white;
+    text-align: center;
 }
