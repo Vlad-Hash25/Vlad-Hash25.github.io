@@ -1,4 +1,4 @@
-/***
+﻿/***
  * Fifth revision of this damn file.
  * I've been using images and textures from 'transparenttextures.com'.
  * The font I've been using comes from google fonts. The font name is "Anonymous Pro".
@@ -31,25 +31,17 @@ nav
     background-color: #3b3b3b;
     float: top;
     margin: 0px;
-    padding: .75vw;
-    height: .75vw;
+    padding: 10px;
+    height: auto;
 	width: auto;
-	content: .75vw;
+	margin: auto;
 }
 
 nav ul
 {
+	display: block;
+	height: auto;
 	list-style: none;
-}
-
-nav ul li
-{
-	
-}
-
-nav ul li a
-{
-	
 }
 
 li a:hover
@@ -60,8 +52,8 @@ li a:hover
 
 .active
 {
-	background-color: #13004d;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 article
