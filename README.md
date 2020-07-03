@@ -1,3 +1,4 @@
 # Vlad-Hash25.github.io
-This webpage was built for the purpose of furthering my education in HTML, Javascript, and CSS - (Collapsing shit sheets).
-This webpage is not meant for any dedicated purpose as of 2019:10:10. I am no professional, as this webpage blatantly demonstrates my inexperience.
+### Branch : 'baseline'
+
+This webpage is going to be a complete rewrite (for the second time) of my entire website. I'm going to try and keep it basic and keep CSS to a minimum as apparently UI design isn't my thing.
