@@ -1,15 +1,29 @@
 body {
-	font-famliy: "Lucida Console";
+	font-family: "Anonymous Pro";
+	text-align: center;
+
+	background-color: black;
+	color: white;
+	/*  */
 }
 
 .header {
-
+	border: 3px solid White;
 }
 
 .container {
-
+	
 }
 
 .nav {
+	border: 3px solid White;
+}
 
+.nav ul li {
+	list-style: none;
+	list-style-type: none;
+}
+
+.nav ul li a {
+	
 }
